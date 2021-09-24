@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Formulario de registro</title>
+</head>
+<body>
+    <h1>Registro para vacunación COVID-19</h1>
+    <form action="" method="GET">
+        <table>
+            <tr>
+                <td>Nombre:</td>
+                <!--Campos de texto tipo password-->
+                <td><input type="text" maxlength="40" required></td>
+            </tr>
+            <tr>
+            <tr>
+                <td>Usuario:</td>
+                <!--Campos de texto tipo password-->
+                <td><input type="text" maxlength="20" required></td>
+            </tr>
+            <tr>
+                <td>Sexo:</td>
+                <td>
+                    <input type="radio" name="genero" value="F" checked>Femenino
+                    <input type="radio" name="genero" value="M">Masculino
+                </td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <!--Campos de texto tipo password-->
+                <td><input type="text" maxlength="120" required></td>
+            </tr>
+            <tr>
+                <td>Contraseña</td>
+                <td><input type="password" maxlength="8" required></td>
+            </tr>
+            <tr>
+                <td> </td>
+                <td><input type="checkbox" name="aceptacion">"Declaro haber leído y aceptar las
+                    condiciones generales del programa y la normativa sobre protección de datos</td>
+            </tr>
+            <tr>
+                <td> </td>
+                <td><button type="button">Enviar</button></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
